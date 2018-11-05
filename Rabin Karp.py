@@ -28,3 +28,5 @@ Note:
 1.)if i<n-m
 This is important bcz in the last iteration we don't want to calculate the 't' value for the next m numbers,it will be out of bound.
 2.)Time Complexity:Θ(m) preprocessing time, Θ((n-m+1)m) Matching time
+3.)In case of characters,you need to have two lists in which every index will store their corresponding ASCII val.
+   Ex: 'aab'=>[97,97,98]
